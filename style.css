@@ -13,7 +13,11 @@ body {
 .matrix__img {
   width: 100%;
 }
+<<<<<<< HEAD
 .matrix__inf {
+=======
+.aaa .more-inf {
+>>>>>>> 302e704 (fix: use a hyphen to separate words in selectors according to rule 3.1 in style.css)
   font-family: fantasy, cursive;
 }
 
@@ -136,8 +140,21 @@ button {
 }
 
 /* Edit Task */
+<<<<<<< HEAD
 .menu .input-text,
 .edit-mode .menu__txt {
+=======
+ul li input[type=text] {
+  display: none
+}
+
+ul li.edit-mode input[type=text] {
+  display: inline-block;
+  width: 224px
+}
+
+ul li.edit-mode label {
+>>>>>>> 302e704 (fix: use a hyphen to separate words in selectors according to rule 3.1 in style.css)
   display: none;
 }
 
