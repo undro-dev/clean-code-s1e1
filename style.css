@@ -14,10 +14,14 @@ body {
   width: 100%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .matrix__inf {
 =======
 .aaa .more-inf {
 >>>>>>> 302e704 (fix: use a hyphen to separate words in selectors according to rule 3.1 in style.css)
+=======
+.matrix__inf {
+>>>>>>> 4184267b6401222557faa5bb6d1c21a460bb9221
   font-family: fantasy, cursive;
 }
 
@@ -141,6 +145,7 @@ button {
 
 /* Edit Task */
 <<<<<<< HEAD
+<<<<<<< HEAD
 .menu .input-text,
 .edit-mode .menu__txt {
 =======
@@ -162,3 +167,14 @@ ul li.edit-mode label {
   display: inline-block;
   width: 224px;
 }
+=======
+.menu .input-text,
+.edit-mode .menu__txt {
+  display: none;
+}
+
+.edit-mode .input-text {
+  display: inline-block;
+  width: 224px;
+}
+>>>>>>> 4184267b6401222557faa5bb6d1c21a460bb9221
