@@ -13,15 +13,8 @@ body {
 .matrix__img {
   width: 100%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .matrix__inf {
-=======
-.aaa .more-inf {
->>>>>>> 302e704 (fix: use a hyphen to separate words in selectors according to rule 3.1 in style.css)
-=======
-.matrix__inf {
->>>>>>> 4184267b6401222557faa5bb6d1c21a460bb9221
   font-family: fantasy, cursive;
 }
 
@@ -30,7 +23,6 @@ body {
     text-align: center;
   }
 }
-
 
 .content {
   display: block;
@@ -143,23 +135,12 @@ button {
   color: #888;
 }
 
-/* Edit Task */
-<<<<<<< HEAD
-<<<<<<< HEAD
 .menu .input-text,
 .edit-mode .menu__txt {
-=======
-ul li input[type=text] {
   display: none
 }
 
-ul li.edit-mode input[type=text] {
-  display: inline-block;
-  width: 224px
-}
-
 ul li.edit-mode label {
->>>>>>> 302e704 (fix: use a hyphen to separate words in selectors according to rule 3.1 in style.css)
   display: none;
 }
 
@@ -167,7 +148,6 @@ ul li.edit-mode label {
   display: inline-block;
   width: 224px;
 }
-=======
 .menu .input-text,
 .edit-mode .menu__txt {
   display: none;
@@ -177,4 +157,4 @@ ul li.edit-mode label {
   display: inline-block;
   width: 224px;
 }
->>>>>>> 4184267b6401222557faa5bb6d1c21a460bb9221
+
