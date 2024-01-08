@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.matrix-img {
+.matrix__img {
   width: 100%;
 }
-.inf {
+.matrix__inf {
   font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.new-task-wrapper {
+.add-task-wrapper {
   display: flex;
 }
 ul {
@@ -61,8 +61,7 @@ button {
   color: #3a3a3a;
 }
 /* Heading */
-.app-title,
-.new-task-label {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +87,7 @@ button {
 }
 
 /* New Task */
-.new-task-label {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -97,7 +96,7 @@ button {
 }
 
 /* Task list */
-.list-item {
+.menu__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -105,20 +104,20 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.list-item > * {
+.menu__item > * {
   vertical-align: middle;
 }
 
-.input-checkbox {
+.menu__checkbox {
   margin: 0 10px;
 }
-.list-item > .label-task {
+.menu__item > .menu__txt {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list-item > .input-text {
+.menu__item > .input-text {
   width: 226px;
 }
 .delete-img {
@@ -137,8 +136,8 @@ button {
 }
 
 /* Edit Task */
-.tasks-list .input-text,
-.edit-mode .label-task {
+.menu .input-text,
+.edit-mode .menu__txt {
   display: none;
 }
 
